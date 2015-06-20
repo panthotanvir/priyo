@@ -76,7 +76,7 @@
       <file leaf-file-name="user_registration.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/views/user_registration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -373,6 +373,7 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/views/error/error404.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/views/user_registration.jsp" />
       </list>
     </option>
   </component>
@@ -877,12 +878,12 @@
       <created>1434796180947</created>
       <updated>1434796180947</updated>
       <workItem from="1434796183968" duration="623000" />
-      <workItem from="1434796824827" duration="6171000" />
+      <workItem from="1434796824827" duration="6778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6794000" />
+    <option name="totallyTimeSpent" value="7401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
@@ -1063,7 +1064,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/user_registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3225">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
