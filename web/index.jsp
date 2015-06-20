@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<c:import url=""/>
+<c:import url="home"/>
 
 
 </body>
