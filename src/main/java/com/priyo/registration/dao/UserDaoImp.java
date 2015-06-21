@@ -23,7 +23,7 @@ public class UserDaoImp implements UserDao {
         log.debug("database e dhukse");
         String insertQuery = "INSERT INTO `priyo`.`user` (`user_name`,  `email`, `password`,`phone`,`dob`)" +
                 " VALUES (?, ?, ?, ?, ?);";
-        log.debug("value paise ki", user.getUser_name());
+
         String userName = user.getUser_name();
         String email = user.getEmail();
         String password = user.getPassword();

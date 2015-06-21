@@ -33,22 +33,24 @@ public class RegistrationController extends javax.servlet.http.HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        log.debug("form paise", req.getParameter("email"));
+        log.debug("RegistrationController is called");
         createRegistration(req);
-        log.debug("dekhi ", user.getUser_name());
+
         userDao.register(user);
 
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/success.jsp");
+        requestDispatcher.forward(req, resp);
 
     }
     private void createRegistration(HttpServletRequest req) throws IOException, ServletException {
         user = new User();
-        log.debug("akhne ki dhukse",req.getParameter("user_name"));
+
         user.setUser_name(req.getParameter("user_name"));
         user.setEmail(req.getParameter("email"));
         user.setPassword(req.getParameter("password"));
         user.setPhoneNo(req.getParameter("phone"));
         user.setDob(req.getParameter("date"));
-        log.debug("jdi dhuke tahole ", user.getUser_name());
+
 
     }
 }

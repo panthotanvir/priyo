@@ -67,7 +67,7 @@
 <div>
     <!--=== Header ===-->
 
-
+    <img id="image" class="img-responsive" src="assets/img/priyo.png" alt="" />
     <decorator:body/>
         <!-- Footer -->
 
